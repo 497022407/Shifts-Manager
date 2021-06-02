@@ -21,6 +21,5 @@ if(f.read() == '0'):
     f.write('1')
     f.close()
 f = open('install','r')
-print (f.read())
 webbrowser.open('http://localhost:8000')
 os.system('python manage.py runserver')
