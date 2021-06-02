@@ -1,6 +1,6 @@
 app_id: "bed67451-4d86-4411-bc57-5ef78d5ec539"
 app_secret: "P34b-QFknSTKshZrPMa.6vwwp9Tru-.7L4"
-redirect: "http://localhost:8000/callback"
+redirect: "https://obscure-retreat-74887.herokuapp.com/callback"
 scopes:
   - user.read
   - mailboxsettings.read
