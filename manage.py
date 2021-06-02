@@ -22,5 +22,5 @@ def main():
 
 
 if __name__ == '__main__':
-    webbrowser.open('http://localhost:8000')
+    # webbrowser.open('http://localhost:8000')
     main()
