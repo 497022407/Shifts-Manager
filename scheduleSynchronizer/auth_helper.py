@@ -57,7 +57,7 @@ def store_user(request, user):
       'is_authenticated': True,
       'name': user['displayName'],
       'email': user['mail'] if (user['mail'] != None) else user['userPrincipalName'],
-      'timeZone': user['mailboxSettings']['timeZone']
+      'timeZone': 'Cen. Australia Standard Time'
     }
   except Exception as e:
     print(e)
